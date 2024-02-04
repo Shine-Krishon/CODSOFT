@@ -213,3 +213,44 @@ header * {
   width: 31px;
   height: 30px;
 }
+
+.projects {
+  height: 100vh;
+  /* border: 5px solid red; */
+}
+
+.projects .container {
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 120px;
+}
+
+.projects-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project {
+  /* border: 5px solid red; */
+  background-color: var(--color-dark-primary);
+  border-radius: 13px;
+  width: 375px;
+  height: 250px;
+  padding: 1.7rem;
+  margin-top: 45px;
+}
+
+.project-title,
+.project-description {
+  background-color: inherit;
+  text-align: center;
+}
+
+.project .project-title {
+  margin-bottom: 30px;
+}
+
+/* .footer {
+  height: 100vh;
+} */
