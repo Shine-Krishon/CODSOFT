@@ -138,6 +138,7 @@ header * {
   text-decoration: none;
   padding: 10px;
   border-radius: 8px;
+  margin-right: 18px;
 }
 
 .button:hover {
@@ -171,6 +172,10 @@ header * {
 .image-container .image {
   height: 350px;
   border-radius: 8px;
+}
+
+.button .download {
+  background-color: transparent;
 }
 
 .title {
