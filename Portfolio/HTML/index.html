@@ -12,9 +12,11 @@
     <title>Shine Krishon | Web Developer</title>
   </head>
   <body>
+    <!-- NAV BAR SECTION -->
+
     <header>
       <nav class="navigation">
-        <h1 class="logo"><a href="#">SK</a></h1>
+        <h1 class="logo"><a href="#home">SK</a></h1>
         <ul class="list">
           <li class="pages">
             <a href="#about-page" class="page-anchors">About Me</a>
@@ -22,7 +24,9 @@
           <li class="pages">
             <a href="#projects" class="page-anchors">Projects</a>
           </li>
-          <li class="pages"><a href="#" class="page-anchors">Contact</a></li>
+          <li class="pages">
+            <a href="#contact" class="page-anchors">Contact</a>
+          </li>
         </ul>
         <div class="social">
           <a
@@ -90,83 +94,94 @@
         </div>
       </nav>
     </header>
-    <section class="landing-page">
-      <div class="text">
-        <p>Hi! I am</p>
-        <h1 class="name">Shine Krishon</h1>
-        <p class="designation">A passionate Web Developer</p>
-        <a href="#" class="button">Contact Me</a>
-        <a href="./shinekrishon_resume.pdf" class="button" download
-          ><img
-            src="../ICONS/download-file-icon.svg"
-            alt="download"
-            width="15px"
-            height="17px"
-            class="download"
-          />
-          Resume</a
-        >
+
+    <!-- HOME SECTION -->
+
+    <section class="landing-page" id="home">
+      <div class="home-container">
+        <div class="text">
+          <p>Hi! I am</p>
+          <h1 class="name">Shine Krishon</h1>
+          <p class="designation">A passionate Web Developer</p>
+          <a href="#" class="button">Contact Me</a>
+          <a href="./shinekrishon_resume.pdf" class="button" download
+            ><img
+              src="../ICONS/download-file-icon.svg"
+              alt="download"
+              width="15px"
+              height="17px"
+              class="download"
+            />
+            Resume</a
+          >
+        </div>
       </div>
     </section>
-    <section class="about-page" id="about-page">
-      <div class="image-container">
-        <img
-          src="../IMAGES/IMG_20230505_232114.jpg"
-          alt="my picture"
-          class="image"
-        />
-      </div>
-      <div class="about-container">
-        <h1 class="title">About Me</h1>
-        <div class="description-container">
-          <p class="description">
-            I'm Shine Krishon. A passionate frontend developer with a keen eye
-            for creating captivating and user-friendly web experiences. From
-            responsive design to modern frameworks like react, I embrace every
-            opportunity to elevate my skills and contribute to cutting edge
-            projects.
-          </p>
-          <br />
-          <p class="description">
-            If you are looking for a frontend developer who combines technical
-            expertise with a passion for creating engaging user interfaces
-            you've come to the right place. Let's colabrate and bring your
-            digital ideas to life.
-          </p>
-        </div>
-        <a href="#" class="button">Let's Talk</a>
-        <a href="./shinekrishon_resume.pdf" class="button" download
-          ><img
-            src="../ICONS/download-file-icon.svg"
-            alt="download"
-            width="15px"
-            height="17px"
-            class="download"
-          />
-          Resume</a
-        >
 
-        <section class="skills">
-          <h3 class="skills-head">Skills</h3>
-          <div class="skills-icons">
-            <img src="../ICONS/html-icon.png" alt="html-icon" />
-            <img src="../ICONS/css-icon.png" alt="html-icon" />
-            <img
-              src="../ICONS/javascript-programming-language-icon.png"
-              alt="html-icon"
-            />
-            <img src="../ICONS/react-js-icon.png" alt="html-icon" />
-            <img src="../ICONS/django-icon.png" alt="html-icon" />
-            <img src="../ICONS/mysql-icon.png" alt="html-icon" />
-            <img
-              src="../ICONS/mongodb-icon.png"
-              alt="html-icon"
-              width="15px"
-              height="30px"
-            />
+    <!-- ABOUT SECTION -->
+
+    <section class="about-page" id="about-page">
+      <div class="about-section">
+        <div class="image-container">
+          <img
+            src="../IMAGES/IMG_20230505_232114.jpg"
+            alt="my picture"
+            class="image"
+          />
+        </div>
+        <div class="about-container">
+          <h1 class="title">About Me</h1>
+          <div class="description-container">
+            <p class="description">
+              I'm Shine Krishon. A passionate frontend developer with a keen eye
+              for creating captivating and user-friendly web experiences. From
+              responsive design to modern frameworks like react, I embrace every
+              opportunity to elevate my skills and contribute to cutting edge
+              projects.
+            </p>
+            <br />
+            <p class="description">
+              If you are looking for a frontend developer who combines technical
+              expertise with a passion for creating engaging user interfaces
+              you've come to the right place. Let's colabrate and bring your
+              digital ideas to life.
+            </p>
           </div>
-        </section>
+          <a href="#" class="button">Let's Talk</a>
+          <a href="./shinekrishon_resume.pdf" class="button" download
+            ><img
+              src="../ICONS/download-file-icon.svg"
+              alt="download"
+              width="15px"
+              height="17px"
+              class="download"
+            />
+            Resume</a
+          >
+          <section class="skills">
+            <h3 class="skills-head">Skills</h3>
+            <div class="skills-icons">
+              <img src="../ICONS/html-icon.png" alt="html-icon" />
+              <img src="../ICONS/css-icon.png" alt="html-icon" />
+              <img
+                src="../ICONS/javascript-programming-language-icon.png"
+                alt="html-icon"
+              />
+              <img src="../ICONS/react-js-icon.png" alt="html-icon" />
+              <img src="../ICONS/django-icon.png" alt="html-icon" />
+              <img src="../ICONS/mysql-icon.png" alt="html-icon" />
+              <img
+                src="../ICONS/mongodb-icon.png"
+                alt="html-icon"
+                width="15px"
+                height="30px"
+              />
+            </div>
+          </section>
+        </div>
       </div>
+
+      <!-- Projects SECTION -->
     </section>
     <section class="projects" id="projects">
       <div class="container">
@@ -196,20 +211,17 @@
               ipsa magni non cupidita
             </p>
           </div>
-          <div class="project socio-project">
-            <h1 class="project-title">Socio</h1>
-            <p class="project-description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-              inventore quos, rem soluta, temporibus tempore voluptatum nemo
-              ipsa magni non cupiditate totam! Eum
-            </p>
-          </div>
         </div>
       </div>
     </section>
-    <!-- <section class="footer">
-      <h1 class="title">Contact</h1>
-      <div class="contact-form"></div>
-    </section> -->
+
+    <!-- FOOTER SECTION -->
+
+    <section class="footer" id="contact">
+      <div class="contact-container">
+        <h1 class="title">Contact</h1>
+        <div class="contact-form"></div>
+      </div>
+    </section>
   </body>
 </html>
