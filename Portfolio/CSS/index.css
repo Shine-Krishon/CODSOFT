@@ -54,7 +54,7 @@ header {
 
 .logo a:hover {
   cursor: pointer;
-  color: #e09145;
+  color: var(--color-gold);
 }
 
 header * {
