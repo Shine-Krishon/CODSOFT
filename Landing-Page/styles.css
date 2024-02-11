@@ -124,3 +124,238 @@ nav {
 .nav-icons span a:hover {
   color: var(--primary-color);
 }
+
+.header-container {
+  min-height: 650px;
+  background-color: var(--primary-color-light);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.header-content {
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.header-content h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.header-content h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.header-content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.header-image {
+  position: relative;
+  height: 100%;
+}
+
+.header-image img {
+  position: absolute;
+  left: 50%;
+  bottom: -5rem;
+  transform: translate(-50%);
+  max-width: 500px;
+}
+
+.categories-grid {
+  max-width: var(--max-width-900);
+  margin: auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.categories-card {
+  text-align: center;
+}
+
+.categories-card img {
+  max-width: 100px;
+  margin: auto;
+  margin-bottom: 1rem;
+  border: 5px solid var(--white);
+  border-radius: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.categories-card h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.hero-card {
+  position: relative;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-15%, -50%);
+}
+
+.hero-content p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.hero-content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.hero-content a {
+  color: var(--text-dark);
+  text-decoration: underline;
+}
+
+.hero-card img {
+  border-radius: 5px;
+}
+
+.product-grid {
+  max-width: var(--max-width-900);
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.product-card-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.product-rating {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: goldenrod;
+}
+
+.product-card-content h4 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+}
+
+.product-card-content p {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.product-card-content p s {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-light);
+}
+
+.product-btn {
+  text-align: center;
+}
+
+.deals-container {
+  background-color: var(--primary-color-light);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.deals-image {
+  height: 100%;
+  position: relative;
+}
+
+.deals-image img {
+  position: absolute;
+  left: 50%;
+  bottom: -5rem;
+  transform: translate(-50%);
+  max-width: 550px;
+}
+
+.deals-content {
+  max-width: 600px;
+  margin-right: auto;
+}
+
+.deals-content h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.deals-content h4 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.deals-content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.deals-countdown {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.deals-countdown-card {
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.deals-countdown-card h4 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+
+.deals-countdown-card p {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: var(--text-dark);
+}
