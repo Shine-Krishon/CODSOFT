@@ -260,14 +260,25 @@ header * {
   margin-bottom: 30px;
 }
 
-.footer {
-  height: 100vh;
-}
-
 .footer .contact-container {
   padding-top: 100px;
+  padding-left: 110px;
 }
 
 .footer .title {
+  margin-bottom: 30px;
+}
+
+.copyrights {
+  width: 100%;
+  border-top: 0.1rem solid var(--color-gold);
+}
+
+.footer p {
+  margin-bottom: 2rem;
+}
+
+.copyrights p {
   text-align: center;
+  padding: 1rem 2rem;
 }
